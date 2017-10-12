@@ -148,7 +148,6 @@ body {
     src: url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.eot');
     src: url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.svg#Roboto') format('svg');
 }
-/*END:fonts*/
 
 .nav {
     position: fixed;
@@ -158,7 +157,7 @@ body {
     width: 200px;
     height: 100%;
     padding: 30px 15px;
-    background: rgba(0, 0, 0, .8);
+    background: #4a4a4a;
     -webkit-box-shadow: 4px 0 11px 4px #7c7c7c;
     -moz-box-shadow: 4px 0 11px 4px #7c7c7c;
     box-shadow: 4px 0 11px 4px #7c7c7c;
@@ -214,44 +213,25 @@ body {
     width: 200px;
     height: 300px;
     margin: 0 20px 20px 20px;
-}
-
-.card::after {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 200px;
-    height: 300px;
-    content: '';
     -webkit-transition: all .15s ease-in;
     -moz-transition: all .15s ease-in;
     -o-transition: all .15s ease-in;
     transition: all .15s ease-in;
-    background-color: yellow;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 .card:focus {
-    outline: none;
+    -webkit-box-shadow: -9px 9px yellow;
+    -moz-box-shadow: -9px 9px yellow;
+    box-shadow: -9px 9px yellow;
 }
 
-.card:focus::after {
-    position: absolute;
-    top: 10px;
-    left: -10px;
-    display: block;
-    content: '';
-    background-color: yellow;
-}
-
-.card:hover::after {
-    position: absolute;
-    top: 10px;
-    left: -10px;
-    display: block;
-    content: '';
-    background-color: yellow;
+.card:hover {
+    -webkit-box-shadow: -9px 9px yellow;
+    -moz-box-shadow: -9px 9px yellow;
+    box-shadow: -9px 9px yellow;
 }
 
 .card-body {
@@ -388,6 +368,15 @@ body {
     outline: none;
     background: yellow;
 }
+/*# sourceMappingURL=sourcemaps/assets.css.map */
+
+/*base*/
+
+/*header*/
+
+/*END:header*/
+
+/*footer*/
 
 /*END:footer*/
 
@@ -402,7 +391,7 @@ body {
     height: 100%;
     padding-top: 50px;
     padding-left: 220px;
-    background: aliceblue;
+    background: #f0f8ff;
 }
 
 .clearfix:after,
@@ -419,4 +408,4 @@ body {
 }
 
 /*END:base*/
-
+/*# sourceMappingURL=sourcemaps/base.css.map */
