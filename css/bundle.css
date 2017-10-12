@@ -129,143 +129,6 @@ body {
     color: #000;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: bold;
-    margin: 0 0 20px;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.5em;
-}
-
-h3 {
-    font-size: 1.17em;
-}
-
-h4 {
-    font-size: 1.12em;
-}
-
-h5 {
-    font-size: .83em;
-}
-
-h6 {
-    font-size: .75em;
-}
-
-a,
-a:hover,
-a:focus {
-    color: #000;
-    outline: none;
-}
-
-ul {
-    margin-bottom: 20px;
-}
-
-p {
-    margin-bottom: 20px;
-    padding: 0;
-}
-
-img {
-    max-width: 100%;
-    border-style: none;
-    outline: none;
-}
-
-input[type='search']::-webkit-search-decoration,
-input[type='search']::-webkit-search-cancel-button,
-input[type='search']::-webkit-search-results-button,
-input[type='search']::-webkit-search-results-decoration {
-    display: none;
-}
-
-input::-moz-focus-inner,
-button::-moz-focus-inner {
-    border: 0;
-}
-
-input::-ms-clear {
-    display: none;
-}
-
-input,
-button {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-input,
-textarea,
-button,
-.slick-slide {
-    outline: none;
-}
-
-textarea {
-    overflow: auto;
-    resize: none;
-}
-
-strong {
-    font-weight: bold;
-}
-
-label,
-button {
-    cursor: pointer;
-}
-
-sup,
-sub {
-    position: relative;
-    top: -.4em;
-    vertical-align: baseline;
-}
-
-sub {
-    top: .4em;
-}
-
-table {
-    border-spacing: 0;
-    border-collapse: collapse;
-}
-
-.alignright {
-    float: right;
-}
-
-.alignleft {
-    float: left;
-}
-
-img.aligncenter {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.text-center {
-    text-align: center;
-}
-
 /* END:myReset */
 
 @font-face {
@@ -285,19 +148,6 @@ img.aligncenter {
     src: url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.eot');
     src: url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.svg#Roboto') format('svg');
 }
-
-/*fonts*/
-
-/* According to include your custom fonts into the project,
-	please follow these rules: 
-
-	1. Create a folder with the font-family in your fonts/ folter for Example - LifehackBasic
-	2. Create a subfolder for Font type with the hyphen sign in your LifehackBasic/ folder for Example LifehackBasic-Regular
-	3. So, Add a new folder with FontFamily-FontType syntax and upload your fonts and named files as the FontType/ folder + file expansion for Example path will be: ../fonts/LifehackBasic/LifehackBasic-Regular/LifehackBasic-Regular.eot
-	4. Include fonts like this, so, FontFamily and FontType: @include font-face('LifehackBasic', 'Regular');
-	5. Please, feel free to clear this comment after successfully understanding the rules. Please, enjoy! :) 
- */
-
 /*END:fonts*/
 
 .nav {
@@ -538,15 +388,6 @@ img.aligncenter {
     outline: none;
     background: yellow;
 }
-/*# sourceMappingURL=sourcemaps/assets.css.map */
-
-/*base*/
-
-/*header*/
-
-/*END:header*/
-
-/*footer*/
 
 /*END:footer*/
 
@@ -578,4 +419,4 @@ body {
 }
 
 /*END:base*/
-/*# sourceMappingURL=sourcemaps/base.css.map */
+
