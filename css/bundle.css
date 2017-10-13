@@ -443,15 +443,16 @@ body {
     -o-transition: all .15s ease-in;
     transition: all .15s ease-in;
     color: #c0c0c0;
-    border: 2px solid #c0c0c0;
     -webkit-border-radius: 2em;
     -moz-border-radius: 2em;
     border-radius: 2em;
+    -webkit-box-shadow: inset 0 0 0 2px #c0c0c0;
+    -moz-box-shadow: inset 0 0 0 2px #c0c0c0;
+    box-shadow: inset 0 0 0 2px #c0c0c0;
 }
 
 .sort-card__title:hover {
     color: #fff;
-    border: 2px solid #242c33;
     background: #242c33;
     -webkit-box-shadow: 0 5px 9px #000;
     -moz-box-shadow: 0 5px 9px #000;
@@ -460,7 +461,6 @@ body {
 
 .sort-card__title:focus {
     color: #fff;
-    border: 2px solid #242c33;
     outline: none;
     background: #242c33;
     -webkit-box-shadow: 0 5px 9px #000;
@@ -484,7 +484,6 @@ body {
 
 .sort-card__title.active {
     color: #fff;
-    border: 2px solid #242c33;
     background: #242c33;
     -webkit-box-shadow: 0 5px 9px #000;
     -moz-box-shadow: 0 5px 9px #000;
@@ -788,15 +787,16 @@ body {
     -o-transition: all .15s ease-in;
     transition: all .15s ease-in;
     color: #c0c0c0;
-    border: 2px solid #c0c0c0;
     -webkit-border-radius: 2em;
     -moz-border-radius: 2em;
     border-radius: 2em;
+    -webkit-box-shadow: inset 0 0 0 2px #c0c0c0;
+    -moz-box-shadow: inset 0 0 0 2px #c0c0c0;
+    box-shadow: inset 0 0 0 2px #c0c0c0;
 }
 
 .btn:hover {
     color: #000;
-    border: 2px solid #ffde39;
     background: #ffde39;
     -webkit-box-shadow: 0 3px 9px #000;
     -moz-box-shadow: 0 3px 9px #000;
@@ -805,7 +805,6 @@ body {
 
 .btn:focus {
     color: #000;
-    border: 2px solid #ffde39;
     outline: none;
     background: #ffde39;
     -webkit-box-shadow: 0 3px 9px #000;
@@ -815,7 +814,6 @@ body {
 
 .btn.active {
     color: #000;
-    border: 2px solid #ffde39;
     background: #ffde39;
     -webkit-box-shadow: 0 3px 9px #000;
     -moz-box-shadow: 0 3px 9px #000;
