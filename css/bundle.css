@@ -494,10 +494,10 @@ body {
     position: absolute;
     z-index: 9;
     z-index: 1;
-    top: 2.9em;
+    top: 2.7em;
     left: 50%;
     display: none;
-    width: 14em;
+    width: 88%;
     -webkit-transform: translate(-50%, 0);
     -moz-transform: translate(-50%, 0);
     -ms-transform: translate(-50%, 0);
