@@ -505,9 +505,14 @@ body {
     z-index: 9;
     z-index: 1;
     top: 2.7em;
-    left: 1em;
+    left: 0;
     display: none;
     width: 88%;
+    -webkit-transform: translateX(16px);
+    -moz-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    -o-transform: translateX(16px);
+    transform: translateX(16px);
 }
 
 .sort-card-list.active {
