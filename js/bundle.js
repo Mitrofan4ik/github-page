@@ -11,8 +11,8 @@ for (i = 0; i < links.length; i++) {
 
 var linksBack = document.getElementsByClassName("-js-goto-startpage");
 
-for (var i = 0; i < links.length; i++) {  
-  links[i].addEventListener("click", function() {    
+for (var i = 0; i < linksBack.length; i++) {  
+  linksBack[i].addEventListener("click", function() {    
     document.location.href = "https://mitrofan4ik.github.io/github-page/";
   });
 }
