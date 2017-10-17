@@ -68,11 +68,5 @@ navListItem.addEventListener("click", function() {
   navListItem.classList.remove('active');
   navListItem.classList.add('active');
 });
-// function setFocusToTextBox(){
-//   var textbox = document.getElementById("jsFeatured").focus();
-//   textbox.focus();
-//   textbox.scrollIntoView();
-// }
-// // function setFocusToTextBox(){
-// //   document.getElementById("jsFeatured").focus();
-// // }
+
+document.getElementById("jsFeatured").focus();
