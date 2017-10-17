@@ -518,12 +518,8 @@ body {
     top: 0;
     left: 0;
     display: none;
-    width: 88%;
-    -webkit-transform: translateX(16px);
-    -moz-transform: translateX(16px);
-    -ms-transform: translateX(16px);
-    -o-transform: translateX(16px);
-    transform: translateX(16px);
+    width: 13.8em;
+    margin: 0 auto;
 }
 
 .sort-card-list.active {
