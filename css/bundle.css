@@ -501,10 +501,9 @@ body {
 }
 
 .sort-card-list {
-    position: absolute;
-    z-index: 9;
+    position: relative;
     z-index: 1;
-    top: 2.7em;
+    top: 0;
     left: 0;
     display: none;
     width: 88%;
