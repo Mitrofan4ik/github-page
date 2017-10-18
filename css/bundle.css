@@ -315,7 +315,7 @@ body {
 .content-row {
     font-size: 0;
     display: block;
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
     padding: 20px 0;
 }
@@ -331,6 +331,11 @@ body {
     -moz-transition: all .15s ease-in;
     -o-transition: all .15s ease-in;
     transition: all .15s ease-in;
+    -webkit-transform: translateY(-250px);
+    -moz-transform: translateY(-250px);
+    -ms-transform: translateY(-250px);
+    -o-transform: translateY(-250px);
+    transform: translateY(-250px);
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -664,7 +669,7 @@ body {
 .collection-wrapper {
     position: absolute;
     top: 18em;
-    left: 15em;
+    left: 50em;
     overflow: hidden;
     height: 28em;
     padding: 20px;

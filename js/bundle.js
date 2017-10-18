@@ -31,12 +31,15 @@ if (myElem !== null) {
       dropDownType.innerHTML=this.getAttribute('data-sort');
         dropDownList.classList.toggle('active');
     });
-  }
-
-
+  };
   dropDown.addEventListener("click", function() {  
     dropDownList.classList.toggle('active');
   });
+} else {
+  var collectionsMenuItem = document.getElementById('jsCollections');
+  collectionsMenuItem.addEventListener('click', function(){
+    collectionsMenuItem.classList.add('active');
+  })
 }
 // DATE TIME
 var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -63,10 +66,40 @@ document.getElementById('date').innerHTML =
 startTime()
 
 // NAV LIST 
-var navListItem = document.getElementsByClassName("nav-hidden-list__item");
-navListItem.addEventListener("click", function() {
-  navListItem.classList.remove('active');
-  navListItem.classList.add('active');
-});
+var makeActive;
+var selector = '#jsNavList .nav-hidden-list__item';
+var elems = document.querySelectorAll(selector);
 
-document.getElementById("jsFeatured").focus();
+makeActive = function () {
+    for (var i = 0; i < elems.length; i++)
+      elems[i].classList.remove('active');
+      this.classList.add('active');
+};
+for (var i = 0; i < elems.length; i++)
+    elems[i].addEventListener('click', makeActive);
+
+
+// var navListItem = document.getElementsByClassName("navHiddenItem")[0];
+// var navListItemUpper = document.getElementsByClassName("nav-hidden-list__item")[0];
+
+// for (var li = 0; li < navListItem.length; li++) {  
+//   navListItem[li].addEventListener("click", function() {       
+//     navListItemUpper.classList.remove('active');
+//     navListItemUpper.classList.add('active');
+//   });
+// };
+
+// var navList = document.getElementById("jsNavList");
+// navList.addEventListener("click", function(event) {
+//   var target = event.target;
+  
+//   var navlistItem = target.closest('nav-hidden-list__item');
+
+//   if (navList.contains(navlistItem)) {
+//     navlistItem.classList.remove('active');
+//     navlistItem.classList.add('active');
+//   } else {
+//     navlistItem.classList.remove('active');
+//     navlistItem.classList.add('active');
+//   }
+// });
