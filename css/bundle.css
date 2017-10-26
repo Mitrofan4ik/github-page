@@ -129,19 +129,19 @@ body {
 @font-face {
     font-family: 'Roboto-Regular';
     src: url('../fonts/Roboto/Roboto-Regular/Roboto-Regular.eot');
-    src: url('../fonts/Roboto/Roboto-Regular/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Regular/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto/Roboto-Regular/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto/Roboto-Regular/Roboto-Regular.svg#Roboto') format('svg');
+    src: url('../fonts/Roboto/Roboto-Regular/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Regular/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto/Roboto-Regular/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto-Medium';
     src: url('../fonts/Roboto/Roboto-Medium/Roboto-Medium.eot');
-    src: url('../fonts/Roboto/Roboto-Medium/Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Medium/Roboto-Medium.woff') format('woff'), url('../fonts/Roboto/Roboto-Medium/Roboto-Medium.ttf') format('truetype'), url('../fonts/Roboto/Roboto-Medium/Roboto-Medium.svg#Roboto') format('svg');
+    src: url('../fonts/Roboto/Roboto-Medium/Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Medium/Roboto-Medium.woff') format('woff'), url('../fonts/Roboto/Roboto-Medium/Roboto-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto-Bold';
     src: url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.eot');
-    src: url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.svg#Roboto') format('svg');
+    src: url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto/Roboto-Bold/Roboto-Bold.ttf') format('truetype');
 }
 
 .nav-wrapper {
@@ -562,9 +562,15 @@ screen and (max-height: 1600px) {
     height: 300px;
     margin: 0 10px 20px 10px;
     -webkit-transition: all .15s ease-in;
+    -webkit-transition: -webkit-transform .5s linear;
     -moz-transition: all .15s ease-in;
+    -moz-transition: transform .5s linear, -moz-transform .5s linear;
     -o-transition: all .15s ease-in;
+    -o-transition: -o-transform .5s linear;
     transition: all .15s ease-in;
+    transition: -webkit-transform .5s linear;
+    transition: transform .5s linear;
+    transition: transform .5s linear, -webkit-transform .5s linear, -moz-transform .5s linear, -o-transform .5s linear;
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -1172,6 +1178,12 @@ screen and (max-height: 1600px) {
     width: 37em;
     height: 24.6em;
     margin: 0 20px;
+    -webkit-transition: -webkit-transform .5s linear;
+    -moz-transition: transform .5s linear, -moz-transform .5s linear;
+    -o-transition: -o-transform .5s linear;
+    transition: -webkit-transform .5s linear;
+    transition: transform .5s linear;
+    transition: transform .5s linear, -webkit-transform .5s linear, -moz-transform .5s linear, -o-transform .5s linear;
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
