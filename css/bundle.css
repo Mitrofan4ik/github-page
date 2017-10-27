@@ -1735,8 +1735,8 @@ body {
 
 @media screen and (min-width: 2048px) {
     .btn:hover .money-icon {
-        width: 16px;
-        height: 16px;
+        width: 15px;
+        height: 15px;
     }
 }
 
@@ -1755,8 +1755,8 @@ body {
 
 @media screen and (min-width: 2048px) {
     .btn:focus .money-icon {
-        width: 16px;
-        height: 16px;
+        width: 15px;
+        height: 15px;
     }
 }
 
@@ -1782,8 +1782,8 @@ body {
 
 @media screen and (min-width: 2048px) {
     .btn.active .money-icon {
-        width: 16px;
-        height: 16px;
+        width: 15px;
+        height: 15px;
     }
 }
 
@@ -1802,8 +1802,8 @@ body {
 .btn .money-icon {
     display: block;
     display: inline-block;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     -webkit-transition: all .15s ease-in;
     -moz-transition: all .15s ease-in;
     -o-transition: all .15s ease-in;
@@ -1815,8 +1815,8 @@ body {
 
 @media screen and (min-width: 2048px) {
     .btn .money-icon {
-        width: 16px;
-        height: 16px;
+        width: 15px;
+        height: 15px;
     }
 }
 
