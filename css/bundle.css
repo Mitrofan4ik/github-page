@@ -627,22 +627,6 @@ screen and (max-height: 1600px) {
     }
 }
 
-.card:first-child .card-body .card-title {
-    display: block;
-}
-
-.card:first-child .card-body .card-title-hide {
-    display: block;
-}
-
-.card:nth-child(2) .card-body .card-title {
-    display: block;
-}
-
-.card:nth-child(2) .card-body .card-title-hide {
-    display: block;
-}
-
 .card:focus {
     outline: none;
 }
@@ -787,7 +771,6 @@ screen and (max-height: 1600px) {
     position: absolute;
     bottom: 1em;
     left: 1em;
-    display: none;
     -webkit-transition: all .15s ease-in;
     -moz-transition: all .15s ease-in;
     -o-transition: all .15s ease-in;
@@ -802,7 +785,6 @@ screen and (max-height: 1600px) {
     position: absolute;
     bottom: 1em;
     left: 1em;
-    display: none;
     -webkit-transition: all .15s ease-in;
     -moz-transition: all .15s ease-in;
     -o-transition: all .15s ease-in;
@@ -1289,6 +1271,16 @@ screen and (max-height: 1600px) {
     left: -10px;
 }
 
+.collection:focus .collection-holder {
+    -webkit-transition: all .15s ease-in;
+    -moz-transition: all .15s ease-in;
+    -o-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    -webkit-box-shadow: 0 0 0 2px #ffde39;
+    -moz-box-shadow: 0 0 0 2px #ffde39;
+    box-shadow: 0 0 0 2px #ffde39;
+}
+
 .collection-back__one {
     position: absolute;
     top: 10px;
@@ -1329,6 +1321,10 @@ screen and (max-height: 1600px) {
     overflow: hidden;
     width: 37em;
     height: 24.6em;
+    -webkit-transition: all .15s ease-in;
+    -moz-transition: all .15s ease-in;
+    -o-transition: all .15s ease-in;
+    transition: all .15s ease-in;
     text-align: center;
     -webkit-box-shadow: 0 0 10px 0 black;
     -moz-box-shadow: 0 0 10px 0 black;
