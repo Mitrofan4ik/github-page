@@ -1264,21 +1264,21 @@ screen and (max-height: 1600px) {
 .collection:focus .collection-back__one {
     top: 5px;
     left: -5px;
+    -webkit-transition: all .15s ease-in;
+    -moz-transition: all .15s ease-in;
+    -o-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    background-color: #ffde39;
 }
 
 .collection:focus .collection-back__two {
     top: 10px;
     left: -10px;
-}
-
-.collection:focus .collection-holder {
     -webkit-transition: all .15s ease-in;
     -moz-transition: all .15s ease-in;
     -o-transition: all .15s ease-in;
     transition: all .15s ease-in;
-    -webkit-box-shadow: 0 0 0 2px #ffde39;
-    -moz-box-shadow: 0 0 0 2px #ffde39;
-    box-shadow: 0 0 0 2px #ffde39;
+    background-color: #ffde39;
 }
 
 .collection-back__one {
