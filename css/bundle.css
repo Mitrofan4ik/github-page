@@ -1730,6 +1730,19 @@ screen and (max-height: 1600px) {
     }
 }
 
+@media screen and (max-width: 1366px) {
+    .viewport-max-1366 .description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .viewport-max-1366 .sort-card__title .icon {
+        width: 1.1em;
+        height: 1em;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     .viewport-max-1400 .collection-wrapper {
         left: 100%;
@@ -1786,6 +1799,13 @@ screen and (max-height: 1600px) {
 @media screen and (min-width: 1920px) {
     .viewport-min-1920 .description {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .viewport-min-1920 .sort-card__title .icon {
+        width: .8em;
+        height: .8em;
     }
 }
 
@@ -1847,6 +1867,13 @@ screen and (max-height: 1600px) {
     }
 }
 
+@media screen and (max-width: 3355px) {
+    .viewport-max-3355 .nav-hidden {
+        left: 6em;
+        width: 89em;
+    }
+}
+
 @media screen and (max-width: 3840px) {
     .viewport-max-3840 .catalogue-inner-title span {
         font-size: 8em;
@@ -1856,6 +1883,13 @@ screen and (max-height: 1600px) {
 @media screen and (max-width: 3840px) {
     .viewport-max-3840 .content-row {
         height: 1095px;
+    }
+}
+
+@media screen and (max-width: 3840px) {
+    .viewport-max-3840 .nav-hidden {
+        left: 6em;
+        width: 90em;
     }
 }
 
@@ -1935,6 +1969,50 @@ screen and (max-height: 1600px) {
         font-size: 40px;
     }
 }
+
+@media screen and (min-width: 3840px) {
+    .viewport-min-3840 .description {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 3840px) {
+    .viewport-min-3840 .description-text__count .icon {
+        width: 24px;
+        height: 24px;
+        background: url('../img/layers-big.png');
+    }
+}
+
+@media screen and (min-width: 3840px) {
+    .viewport-min-3840 .sort-card {
+        top: .3em;
+    }
+}
+
+@media screen and (min-width: 3840px) {
+    .viewport-min-3840 .sort-card__title .icon {
+        width: .8em;
+        height: .7em;
+        background: url('../img/down-chevron.png');
+    }
+}
+
+@media screen and (min-width: 3840px) {
+    .viewport-min-3840 .sort-card__title:hover .icon {
+        width: .8em;
+        height: .7em;
+        background: url('../img/down-chevron-big-black.png');
+    }
+}
+
+@media screen and (min-width: 3840px) {
+    .viewport-min-3840 .sort-card__title:focus .icon {
+        width: .8em;
+        height: .7em;
+        background: url('../img/down-chevron-big-black.png');
+    }
+}
 /*# sourceMappingURL=sourcemaps/assets.css.map */
 
 /*base*/
@@ -1990,6 +2068,11 @@ body {
     display: block;
     clear: both;
     content: '';
+}
+
+.content-holder {
+    width: 100%;
+    height: 100%;
 }
 
 .content-container {
